@@ -1,5 +1,5 @@
 <p>My edit</p>
-<%= form_for @song do |f| %>
+<%= form_for (@song) do |f| %>
 <%= f.label 'My song name' %>
 <%= f.text_field :name %>
 <%= f.submit "Update Song" %>
