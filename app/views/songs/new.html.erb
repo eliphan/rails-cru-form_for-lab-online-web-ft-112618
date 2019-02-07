@@ -2,5 +2,6 @@
 <%= form_for (@song) do |f| %>
 <%= f.label 'My song name' %>
 <%= f.text_field :name %>
+<%= f.label 'Artist'
 <%= f.submit "Create song" %>
 <% end %>
