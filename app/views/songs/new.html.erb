@@ -1,0 +1,6 @@
+<p>My song</p>
+<%= form_for @song do |f| %>
+<%= f.label 'My song name' %>
+<%= f.text_field :name %>
+<%= f.submit "Create song" %>
+<% end %>
