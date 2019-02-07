@@ -19,8 +19,7 @@ class ArtistsController < ApplicationController
     @artist.update(artist_params(:name,:bio))
     redirect_to artist_path(@artist)
   end
-  
-  def 
+ 
   
   private
   def artist_params(*args)
