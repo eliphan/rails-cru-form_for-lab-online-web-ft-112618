@@ -9,3 +9,4 @@ Rails.application.routes.draw do
   get '/genres/:id/edit', to: 'genres#edit', as: :edit_genre
   patch '/genres/:id', to: 'genres#update'
 end
+patch 'articles/:id', to: 'articles#update'
