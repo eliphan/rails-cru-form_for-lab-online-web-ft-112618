@@ -10,6 +10,7 @@ class ArtistsController < ApplicationController
     redirect_to artist_path(@artist)
   end
   
+  private
   def artist_params(*args)
     params.require(:artist).permit(*args)
   end
