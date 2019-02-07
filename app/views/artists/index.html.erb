@@ -1,4 +1,4 @@
 <% @artists = Artist.all %>
 <% @artists.each do |artist| %>
-<%= link_to artist.to_s, artist_path(artist) %>
+<%= link_to artist, artist_path(artist) %>
 <% end %>
